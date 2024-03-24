@@ -1,6 +1,8 @@
 import React from "react";
 import "./Header.css";
 import logo from "./assets/logo.png";
+import dropdown from "./assets/dropdown.png";
+import Hero from "./Hero";
 
 const Header = () => {
   return (
@@ -11,16 +13,20 @@ const Header = () => {
         </div>
         <div className="links">
           <a href="/services">Services</a>
+          <img src={dropdown} alt="drop-down" />
           <a href="/pricing">Pricing</a>
           <a href="/audits">Our Audits</a>
           <a href="/tools">Tools</a>
+          <img src={dropdown} alt="drop-down" />
           <a href="/resources">Resources</a>
+          <img src={dropdown} alt="drop-down" />
           <a href="/referral">Refer-Earn-Secure</a>
         </div>
         <button className="button-gradient shadow-lg text-white py-2 px-6 rounded-md cursor-pointer w-max">
           Request An Audit
         </button>
       </div>
+      <Hero />
     </div>
   );
 };

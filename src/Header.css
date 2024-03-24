@@ -1,5 +1,7 @@
 .header {
   padding: 10px 20px;
+  width: 100%;
+  height: 800px;
 }
 
 .navbar {
@@ -23,8 +25,9 @@
   gap: 55px;
 }
 
-.links a:hover {
-  text-decoration: underline;
+.links img {
+  margin-left: 10px;
+  height: 20px;
 }
 
 .button-gradient {
