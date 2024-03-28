@@ -1,6 +1,13 @@
-.hero img {
+.hero-parent {
+  display: flex;
+}
+
+.hero {
   margin-top: 85px;
   margin-left: 230px;
   height: 150px;
   width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
